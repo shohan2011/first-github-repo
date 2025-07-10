@@ -1,0 +1,92 @@
+/* styling nav */
+nav li{
+    list-style: none;
+   
+}
+
+.open-sans{
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+   
+}
+nav a{
+    text-decoration: none;
+   
+}
+.nav-title{
+    font-size: 35px;
+    font-weight: 800;
+    color: #4E47FF;
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 0px 0px 0px;
+}
+.btn-primary{
+    width: 130px;
+    height: 45px;
+    border-radius: 5px;
+    background-color: #4E47FF;
+    border: none;
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+}
+nav{
+    margin: 0px 150px;
+    
+}
+header{
+    background-image: url(.../../B12A01-landing-launchpad/Assets/Hero-bg.png);
+    width: 1540px;
+    height: 888px;
+    background-size: auto;
+    
+
+}
+.btn-primary:hover{
+    background-color: #303030;
+    transition-duration: 0.5s;
+    font-size: 24px;
+    font-weight: 600;
+}
+.header-heading-btn{
+    background-color: #4E47FF;
+    font-weight: 600;
+    font-size: 20px;
+    width: 170px;
+    height: 45px;
+    color: white;
+    border-radius: 5px;
+    justify-content: center;
+    margin: 0px auto;
+    align-items: center;
+    text-align: center;
+    border: none;
+}
+.header-heading-btn:hover{
+      background-color: #303030;
+    transition-duration: 0.5s;
+    font-size: 21px;
+    font-weight: 600;
+   
+}
+.heading{
+   
+  justify-content: center;
+  align-items: center;
+  margin: 500px 400px;
+
+}
+.heading button{
+    display: flex;
+    justify-content: center;
+}
+.heading h3{
+    font-weight: 800;
+    font-size: 30px;
+ 
+}
