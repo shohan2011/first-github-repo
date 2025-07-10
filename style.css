@@ -90,3 +90,63 @@ header{
     font-size: 30px;
  
 }
+/* styleing productive user section section */
+.productive-user-section{
+    width: 1040px;
+    height: 306px;
+    background-color: rgba(78, 71, 255, 0.1);
+    display: inline-block;
+   margin-top: 200px;
+  margin-left: 200px;
+  border-radius: 7px;
+}
+.productive-user-section-subtitle{
+    display: flex;
+    justify-content: space-around;
+    font-size: 30px;
+    font-weight: 600;
+    color: #4E47FF;
+}
+.productive-user-section-title{
+    display: flex;
+    justify-content: center;
+}
+.productive-user-section-p{
+    font-size: 15px;
+    font-weight: 400;
+    color: rgb(97, 93, 93);
+}
+/* styleing action-section */
+.action-section{
+    display: flex;
+    margin-top: 90px;
+    justify-content: space-between;
+    margin-left: 150px;
+    margin-right: 150px;
+    gap: 200px;
+}
+.action-section-title{
+    font-weight: 800;
+    font-size: 30px;
+}
+.action-section-title-subtitle-btn{
+    width: 400px;
+}
+.action-section-btn{
+    width: 225px;
+    height: 45px;
+    background-color: #4E47FF;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+}
+.action-section-btn:hover{
+    background-color: #303030;
+    transition-duration: 0.5s;
+    font-size: 19px;
+}
+.action-section-img{
+    border-radius: 15px;
+}
