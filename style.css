@@ -16,8 +16,8 @@ nav a{
    
 }
 .nav-title{
-    font-size: 35px;
-    font-weight: 800;
+    font-size: 36px;
+    font-weight: bold;
     color: #4E47FF;
 }
 nav ul{
@@ -32,8 +32,8 @@ nav ul{
     background-color: #4E47FF;
     border: none;
     color: white;
-    font-weight: 500;
-    font-size: 20px;
+    font-weight: bold;
+    font-size: 16px;
 }
 nav{
     margin: 0px 150px;
@@ -47,6 +47,7 @@ header{
     
 
 }
+
 .btn-primary:hover{
     background-color: #303030;
     transition-duration: 0.5s;
@@ -55,8 +56,8 @@ header{
 }
 .header-heading-btn{
     background-color: #4E47FF;
-    font-weight: 600;
-    font-size: 20px;
+    font-weight: bold;
+    font-size: 16px;
     width: 170px;
     height: 45px;
     color: white;
@@ -70,8 +71,8 @@ header{
 .header-heading-btn:hover{
       background-color: #303030;
     transition-duration: 0.5s;
-    font-size: 21px;
-    font-weight: 600;
+    font-size: 20px;
+    font-weight: bold;
    
 }
 .heading{
@@ -81,6 +82,12 @@ header{
   margin: 500px 400px;
 
 }
+
+.heading-h3{
+    font-size: 65px;
+    font-weight: bold;
+}
+
 .heading button{
     display: flex;
     justify-content: center;
@@ -93,7 +100,7 @@ header{
 /* styleing productive user section section */
 .productive-user-section{
     width: 1040px;
-    height: 306px;
+    height: 606px;
     background-color: rgba(78, 71, 255, 0.1);
     display: inline-block;
    margin-top: 200px;
@@ -103,17 +110,18 @@ header{
 .productive-user-section-subtitle{
     display: flex;
     justify-content: space-around;
-    font-size: 30px;
-    font-weight: 600;
+    font-size: 80px;
+    font-weight: bold;
     color: #4E47FF;
 }
 .productive-user-section-title{
     display: flex;
     justify-content: center;
+    font-size: 38px;
+    font-weight: bold;
 }
 .productive-user-section-p{
-    font-size: 15px;
-    font-weight: 400;
+    font-size: 20px;
     color: rgb(97, 93, 93);
 }
 /* styleing action-section */
@@ -126,8 +134,12 @@ header{
     gap: 200px;
 }
 .action-section-title{
-    font-weight: 800;
-    font-size: 30px;
+    font-weight: bold;
+    font-size: 42px;
+}
+.action-section-subtitle{
+    font-size: 24px;
+    
 }
 .action-section-title-subtitle-btn{
     width: 400px;
@@ -149,4 +161,60 @@ header{
 }
 .action-section-img{
     border-radius: 15px;
+}
+/* styling user feedback section */
+.user-feedback-section-all-image{
+    display: flex;
+    justify-content: space-around;
+}
+.start{
+    text-align: center;
+}
+.user-feedback-section-image-icon-image{
+    display: flex;
+}
+.users-feedback-img-p{
+    display: flex;
+    justify-content: space-between;
+}
+.users-section-p{
+    display: block;
+}
+/* card/user feedback section styling */
+.card-big-img{
+    display: flex;
+}
+.icon-img-p-all{
+    display: flex;
+}
+.icon-img{
+    height: 80px;
+    width: 65px;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+.card-section-1{
+    
+    justify-content: center;
+    width: 800px;
+    height: 230px;
+    background-color: #F2EDED;
+   margin-left: 150px;
+   border-radius: 7px;
+}
+.user-feedback-section-card{
+   display: flex; 
+    width: 1200px;
+    height: 1200px;
+    justify-content: space-around;
+margin-top: 100px;
+}
+.card-user-feedback-section{
+    margin-top: 250px;
+     
+}
+.start{
+    font-size: 42px;
+    font-weight: bold;
+
 }
